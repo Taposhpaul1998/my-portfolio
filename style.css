@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,p,span{
+    font-family: font-family: 'Abril Fatface', cursive;
+}
+h1,h2,h3{
+    color: #000000bf;
+}
+p,span{
+    color: #544f4f;
+    font-size: 20px;
+    font-weight: 500;
+}
+.main-content {
+    width: 550px;
+}
+
+.conteiner {
+    display: flex;
+    overflow: hidden;
+    margin: 65px 150px;
+}
+
+.content-title h1 {
+    font-size: 55px;
+    line-height: 75px;
+    
+}
+
+.content-title {
+    border-left: 5px solid;
+    padding-left: 15px;
+    margin-bottom: 35px;
+    border-image: linear-gradient(#ff0000b0,#ff3b009c);
+    border-image-slice: 2;
+}
+h1.title-color {
+    color: #e30b0b8c;
+}
+a.anchor-button {
+    font-size: 18px;
+    text-decoration: none;
+    background-image: linear-gradient(3deg, #ed4e34, #f07979);
+    padding: 10px 25px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 4px;
+}.content-disc {
+    margin-bottom: 25px;
+}
+
+.content-disc p {
+    margin-bottom: 25px;
+    line-height: 25px;
+}
+.main-content img {
+    width: 80%;
+}
+.main-content:first-child {
+    margin-right: 50px;
+}
+
+.main-content:last-child {
+    margin-left: 25px;
+}
+ 
+section.mission-area h2 {
+    text-align: center;
+}
+
+span.mis-txt-clr {
+    font-weight: 600;
+    color: #f07979;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 50px;
+}
+.miss-viss-gol {
+    width: 300px;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-right: 25px;
+    padding: 20px;
+}
+
+.miss-icon {
+    width: 160px;
+}
+
+.miss-icon img {
+    max-width: 100%;
+}
+
+.miss-disc h3 {
+    font-size: 25px;
+    padding: 14px 0px;
+}
+
+.miss-viss-gol:last-child {
+    margin-right: 0px;
+    background-color: #ddd49554;
+}
+
+.miss-area {
+    background-color: #0471f91a;
+}
+
+.viss-area {
+    background-color: #a0fdf93b;
+}
