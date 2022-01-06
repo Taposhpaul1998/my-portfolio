@@ -21,6 +21,7 @@ p,span{
     display: flex;
     overflow: hidden;
     margin: 65px 150px;
+    margin-bottom: 100px;
 }
 
 .content-title h1 {
@@ -111,4 +112,25 @@ h2 {
 
 .viss-area {
     background-color: #a0fdf93b;
+}
+.devel-comm {
+    width: 450px;
+    border-radius: 8px;
+}
+
+.devel-comm img {
+    max-width: 100%;
+}
+
+.devel-comm-area {
+    width: 700px;
+    padding: 55px;
+}
+
+.dev-com-title {
+    line-height: 65px;
+}
+
+.dev-com-disc p {
+    margin: 40px 0px;
 }
