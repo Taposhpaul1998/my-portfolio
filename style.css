@@ -3,7 +3,7 @@
     padding: 0;
 }
 h1,h2,h3,p,span{
-    font-family: font-family: 'Abril Fatface', cursive;
+    font-family:font-family: 'Abril Fatface', cursive;
 }
 h1,h2,h3{
     color: #000000bf;
@@ -36,6 +36,7 @@ p,span{
     margin-bottom: 35px;
     border-image: linear-gradient(#ff0000b0,#ff3b009c);
     border-image-slice: 2;
+    margin-top: 40px;
 }
 h1.title-color {
     color: #e30b0b8c;
@@ -133,4 +134,24 @@ h2 {
 
 .dev-com-disc p {
     margin: 40px 0px;
+}
+
+footer.footer-area  {
+    text-align: center;
+    background: #000000d6;
+    padding: 45px 0px;
+    line-height: 40px;
+}
+footer.footer-area h2{
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    font-size: 40px;
+}
+h2.footer-text span {
+    color: orangered;
+    font-size: 35px;
+}
+
+footer.footer-area p {
+    color: #ffffffa8;
 }
